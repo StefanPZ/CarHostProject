@@ -1,4 +1,4 @@
-namespace CarService2.Host
+namespace CarService3.Host
 {
     public class WeatherForecast
     {

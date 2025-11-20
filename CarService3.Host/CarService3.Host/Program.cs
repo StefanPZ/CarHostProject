@@ -1,6 +1,6 @@
 using Microsoft.OpenApi.Models;
 
-namespace CarService2.Host
+namespace CarService3.Host
 {
     public class Program
     {
@@ -14,7 +14,7 @@ namespace CarService2.Host
 
             builder.Services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Car Service 2", Version = "v1" });
+                options.SwaggerDoc("v1", new OpenApiInfo { Title = "Car Service 3", Version = "v1" });
             });
 
             var app = builder.Build();
@@ -29,7 +29,7 @@ namespace CarService2.Host
 
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("v1/swagger.json", "Car Service 2 V1");
+                options.SwaggerEndpoint("v1/swagger.json", "Car Service 3 V1");
             });
 
             app.UseSwagger();

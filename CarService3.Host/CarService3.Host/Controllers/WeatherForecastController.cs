@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CarService2.Host.Controllers
+namespace CarService3.Host.Controllers
 {
     [ApiController]
     [Route("[controller]")]
